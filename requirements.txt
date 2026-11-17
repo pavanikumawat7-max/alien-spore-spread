@@ -1,0 +1,10 @@
+# Core (needed for Phase 1)
+numpy>=1.24
+matplotlib>=3.7
+
+# GPU backend (needed from Phase 2 onward; install the build matching your CUDA version
+# from https://pytorch.org/get-started/locally/ ; CPU-only build also works for testing)
+torch>=2.1
+
+# Optional: nicer test runner (tests also run with the standard library: python -m unittest)
+pytest>=7.4
